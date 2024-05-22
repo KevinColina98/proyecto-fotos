@@ -1,5 +1,5 @@
 .fondo {
-    background-image: url("../img/img-proyect/fondo.webp");
+    background-image: url("../img/img-proyect/fondo-a.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,35 +10,38 @@
 }
 
 .sobremi {
+    border-radius: 30px;
+    background-color: rgb(0, 0, 0, 0.9);
+    color: rgb(255, 255, 255);
     max-width: 90%;
     margin: auto;
-    margin-bottom: 400px;
+    margin-top: 180px;
+   padding: 8px;
 }
 
 .sobremi h3 {
-    font-size: 40px;
-    margin: 0;
+    font-size: 30px;
+    margin-bottom: 30px;
     padding: 0;
 }
 
-.sobremi-p {
-    margin-top: 30px;
-}
+
 
 .sobremi p {
     font-weight: 450;
     font-size: 17px;
+    
     margin: 0;
 }
 
 @media (min-width: 768px) {
     .sobremi {
-        padding: 50px;
+        padding: 60px;
         max-width: 80%;
     }
 
     .sobremi h3 {
-        font-size: 50px;
+        font-size: 45px;
     }
 
     .sobremi p {
@@ -48,12 +51,12 @@
 
 @media (min-width: 1024px) {
     .sobremi {
-        padding: 100px;
+        padding: 45px;
         max-width: 60%;
     }
 
     .sobremi h3 {
-        font-size: 60px;
+        font-size: 30px;
     }
 
     .sobremi p {
@@ -68,13 +71,13 @@
 
 @media (min-width: 1024px) {
     .sobremi {
-        padding: 100px;
+        padding: 50px;
         max-width: 60%;
     }
 
     .sobremi h3 {
-        margin-top: 50px;
-        font-size: 60px;
+        
+        font-size: 45px;
     }
 
     .sobremi p {

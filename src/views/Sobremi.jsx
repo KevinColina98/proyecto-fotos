@@ -6,10 +6,9 @@ const Sobremi = () => {
         <Layout>
             <div className="fondo">
                 <div className="sobremi">
-                    <h3>Daniel Kevin Colina </h3>
+                    <h3>Kevin Colina </h3>
                     <div className="sobremi-p">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum adipisci reiciendis quisquam vekahskdjhasjkdhkasdhakajshdkjashdjkhl
-                            Dolor architecto magni dignissimos pariatur, nihil inventore eligendi dicta debitis possimus hic eius amet voluptaasdasdasdasdasdastibus ullam necessitatibusit.</p>
+                        <p>Bajo el  seudónimo <strong>Ducker</strong>  se abre un espacio de fotografía para  <br />la experimentación y aprendizaje, proyectando con un enfoque <br /> propio con el fin de explorar nuevas vías de expresión.</p>
                     </div>
                 </div>
             </div>

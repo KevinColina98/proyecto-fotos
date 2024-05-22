@@ -38,9 +38,10 @@
 }
 .home li a:hover{
     
-    transition-duration: 0.5s;
     color:rgb(120, 31, 221);
     font-size: 90px;
+    
+    transition-duration: 0.5s;
 }
 
 
