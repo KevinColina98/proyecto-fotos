@@ -1,0 +1,130 @@
+.dk-logo {
+    display: flex;
+    align-items: center;
+}
+
+.dk-logo img {
+    display: flex;
+    width: 70px;
+    margin-left: 27px;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav {
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+
+nav p {
+    padding: 14px;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+nav p a{
+    color:  white;
+    text-decoration: none;
+}
+
+nav p a:visited{
+    color: initial white;
+}
+
+nav p a:active{
+    color: initial white;
+}
+nav p a:hover {
+    transition-duration: 0.5s;
+    color:rgb(120, 31, 221)
+}
+
+.icon-insta {
+    width: 30px;
+    height: 30px;
+}
+
+.menu-toggle {
+    display: none;
+    margin-left: 8px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    .dk-logo {
+        margin-bottom: 10px;
+    }
+
+    .dk-logo img {
+        margin-left: 5px;
+        width: 60px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        margin-right: 0;
+        display: none;
+        
+    }
+
+    nav.open {
+        display: flex;
+    }
+
+    nav p{
+        padding-bottom: 0;
+        text-decoration: none;
+    }
+    nav p, .icon-insta {
+        font-size: 18px;
+    }
+
+    .icon-insta {
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-bottom: 8px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+}
+
+@media (max-width: 480px) {
+    .dk-logo img {
+        width: 50px;
+    }
+
+    nav p, .icon-insta {
+        font-size: 16px;
+    }
+
+    .icon-insta {
+        width: 25px;
+        height: 25px;
+    }
+}

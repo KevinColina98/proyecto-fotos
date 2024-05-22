@@ -1,0 +1,33 @@
+.pswp-gallery {
+  margin: 0 auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Cambiado a auto-fit para permitir el ajuste automático */
+  grid-auto-rows: minmax(500px, auto); /* Altura mínima de 200px para cada fila */
+  gap: 20px; /* Espacio entre las imágenes */
+}
+
+.pswp-gallery a {
+  display: inline-block;
+  margin: 10px;
+  
+}
+
+
+.pswp-gallery img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .pswp-gallery {
+    grid-template-columns: repeat(2, 1fr); /* Cambiado a 2 columnas */
+    grid-auto-rows: minmax(200px, auto); /* Altura mínima de 200px para cada fila */
+  }
+}
+
+

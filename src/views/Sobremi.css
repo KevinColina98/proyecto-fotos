@@ -1,0 +1,83 @@
+.fondo {
+    background-image: url("../img/img-proyect/fondo.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90.7vh;
+    display: flex;
+
+}
+
+.sobremi {
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 400px;
+}
+
+.sobremi h3 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.sobremi-p {
+    margin-top: 30px;
+}
+
+.sobremi p {
+    font-weight: 450;
+    font-size: 17px;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .sobremi {
+        padding: 50px;
+        max-width: 80%;
+    }
+
+    .sobremi h3 {
+        font-size: 50px;
+    }
+
+    .sobremi p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .sobremi {
+        padding: 100px;
+        max-width: 60%;
+    }
+
+    .sobremi h3 {
+        font-size: 60px;
+    }
+
+    .sobremi p {
+        font-size: 22px;
+    }
+}
+
+    .sobremi p {
+        font-size: 20px;
+    }
+
+
+@media (min-width: 1024px) {
+    .sobremi {
+        padding: 100px;
+        max-width: 60%;
+    }
+
+    .sobremi h3 {
+        margin-top: 50px;
+        font-size: 60px;
+    }
+
+    .sobremi p {
+        font-size: 22px;
+    }
+}
