@@ -18,7 +18,7 @@ const Header = () => {
             <p><Link to="/">Home</Link></p>
                 <p><Link to="/fotos">Fotos</Link> </p>
                 <p><Link to="/sobremi">Sobre mi</Link></p>
-                <a href="https://www.instagram.com/kevindk.98/"   target="_blank" rel="noopener noreferrer"> <img className="icon-insta" src="./src/img/brand-instagram.svg" alt=""/></a>
+                <a href="https://www.instagram.com/kev.dc98/"   target="_blank" rel="noopener noreferrer"> <img className="icon-insta" src="./src/img/brand-instagram.svg" alt=""/></a>
                
             </nav>
             <button className="menu-toggle" onClick={toggleMenu}>
