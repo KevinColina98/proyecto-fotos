@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 768px) {
   .pswp-gallery {
-    grid-template-columns: repeat(2, 1fr); /* Cambiado a 2 columnas */
-    grid-auto-rows: minmax(200px, auto); /* Altura mínima de 200px para cada fila */
+    grid-template-columns: repeat(1, 2fr); /* Cambiado a 1 columna */
+    grid-auto-rows: minmax(100px, auto); /* Altura mínima de 200px para cada fila */
   }
 }
 
